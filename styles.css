@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #1e3d58;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+header button {
+    background-color: #00c8c8;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: #008e8e;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.airdrop-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.airdrop-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.airdrop-section ol {
+    margin: 20px 0;
+}
+
+.airdrop-section li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.airdrop-section button {
+    background-color: #00c8c8;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.airdrop-section button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+footer {
+    background-color: #1e3d58;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #00c8c8;
+    text-decoration: none;
+    margin: 0 10px;
+}
